@@ -1,6 +1,7 @@
 # Hashmapper
 ### Course: ECE297
 ### Developers: Kenny Cui, Eric Chen, Justin Pang
+##### Notable Components: Dijkstra's algorithm, Iterative 2-opt Algorithm, User Interface Design, API Integration, Travelling Salesman Problem 
 
 ##### Hashmapper is a mapping software created by a team of three Computer Engineering students. All code was developed in C++ and heavily utilized the C++ Standard Library (STL). Map data is obtained from an OpenStreetMap API provided by the course. 
 ![](general.png)
