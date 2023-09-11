@@ -32,6 +32,12 @@
 
 ##### When navigation mode is activated, the user can click on two locations on the map. The software then uses Dijkstra's algorithm to find the shortest path between them, taking into account legality, speed limit, and turns. The path is then rendered into readable instructions on the popup screen. The geographic data fed into the algorithm is obtained via the OpenStreetMap API.
 
+### Travelling Salesman Problem (NP Hard)
+
+<img src="2-opt.gif" width="700px" height="550px">
+
+##### We tackled the Travelling Salesman Problem using an iterative 2-opt algorithm as well as a multi-destination Dijkstra's algorithm. The quality of our solution was measured via test-cases provided by the ECE297 teaching team. Our team ranked in the top 20 percentile in a class of ~300 students. 
+
 ### Zoom/Detail Level
 
 ![](zoom_levels.gif)
