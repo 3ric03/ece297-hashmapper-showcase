@@ -25,9 +25,11 @@
 | Street | "<STREET_NAME\>" | "College Street" |
 | Intersection | "<STREET_NAME_1> & <STREET_NAME_2>" | "Bay & Yonge" |
 
-### Directions Mode
+### Navigation Mode
 
 ![](directions_path.gif)
+
+##### When navigation mode is activated, the user can click on two locations on the map. The software then uses Dijkstra's algorithm to find the shortest path between them, taking into account legality, speed limit, and turns. The path is then rendered into readable instructions on the popup screen. The geographic data fed into the algorithm is obtained via the OpenStreetMap API.
 
 ### Zoom/Detail Level
 
